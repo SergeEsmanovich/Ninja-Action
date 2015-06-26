@@ -32,7 +32,7 @@
                 clear: both;
             }
         </style>
-        <script type="text/javascript" src="js/libs/jquery.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.min.js"></script>
         <script type="text/javascript" src="js/libs/buzz.min.js"></script>
         <script type="text/javascript" src="js/libs/jquery.keyboard.js"></script>
         <script src="js/libs/pixi.js"></script>   
