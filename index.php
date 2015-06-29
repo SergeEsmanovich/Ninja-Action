@@ -1,42 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-        <title>Ninja Action</title>
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-                background-color: #000000;
-                overflow: hidden;
-            }
-            .game{
-                width:100%;
-                cursor: pointer;                
-            }
-            .conteiner{
-                width:100%;
-                float: left;
-            }
-            .info{
-                color:#fff;
-            }
-            .comments{
-                float: right;
-                //width:400px;
-                height: 500px;
-                overflow: scroll;
-            }
-            .clear{
-                clear: both;
-            }
-        </style>
-        <script type="text/javascript" src="js/libs/jquery.min.js"></script>
-        <script type="text/javascript" src="js/libs/buzz.min.js"></script>
-        <script type="text/javascript" src="js/libs/jquery.keyboard.js"></script>
-        <script src="js/libs/pixi.js"></script>   
-        <script src="js/libs/box2d.min.js"></script>
+        <meta charset="utf-8"/>
+         <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <title>Ninja Action</title>    
+         <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+         <script type="text/javascript" src="js/libs/buzz.min.js"></script>
+         <script type="text/javascript" src="js/libs/jquery.keyboard.js"></script>
+         <script src="js/libs/pixi.js"></script>   
+         <script src="js/libs/box2d.min.js"></script>
 
         <script src="classes/fons.js"></script>
         <script src="classes/player.js"></script>
@@ -50,12 +22,15 @@
     </head>
 
     <body>
-        <div class="conteiner">
-            <div  class="game">
-            </div>
-            <div class="info">
-                <button id="stop">Вырубить музыку</button>
-                <button id="play">Врубить музыку</button>
+        <ul class="menu">
+            <li><a id="play"><img src="images/common/muzikon.png"></a></li>
+            <li><a id="stop"><img src="images/common/muzikoff.png"></a></li>    
+            <li><a id="stop"><img src="images/common/help.png"></a></li>
+	    <li><a href="http://www.youtube.com/id22066662"><img src="images/common/youtubeicon.png"></a></li>
+        </ul>
+
+            <div  class="game"></div>
+            <!--<div class="info">
                 <p>Влево: A или стрелка</p>
                 <p>Вправо: D или стрелка</p>
                 <p>Удар: V</p>
@@ -64,9 +39,7 @@
                 <p>Забраться на стену: Space</p>
             </div>
         </div>
-        <div class="clear"></div>
-
-        <a target="_blank" href="http://www.youtube.com/id22066662">Ссылка на канал автора=)</a>
+        <div class="clear"></div>--> 
 
     </body>
 </html>

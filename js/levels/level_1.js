@@ -14,48 +14,6 @@ function load_level_1() {
             'object': new PIXI.Texture.fromImage('images/levels/1/fon.jpg')         
         }
     });
-//Вкл. музыку
-     fons.images.push({
-        'image': {
-            'name': 'muzikon',
-            'width': 48,
-            'height': 48,
-            'ground': true,
-            'static': true,
-            'physics': false,
-            'position': {'x': 15, 'y': 15},
-            'anchor': {'x': 0, 'y': 0},
-            'object': new PIXI.Texture.fromImage('images/common/muzikon.png'),
-        }
-     });
-//Выкл. музыку
-     fons.images.push({
-        'image': {
-            'name': 'muzikoof',
-            'width': 48,
-            'height': 48,
-            'ground': true,
-            'static': true,
-            'physics': false,
-            'position': {'x': 100, 'y': 15},
-            'anchor': {'x': 0, 'y': 0},
-            'object': new PIXI.Texture.fromImage('images/common/muzikoff.png'),
-        }
-     });
-//Помощь
-     fons.images.push({
-        'image': {
-            'name': 'help',
-            'width': 48,
-            'height': 48,
-            'ground': true,
-            'static': true,
-            'physics': false,
-            'position': {'x': 190, 'y': 15},
-            'anchor': {'x': 0, 'y': 0},
-            'object': new PIXI.Texture.fromImage('images/common/help.png'),
-        }
-     });
 //Тратуар     
     fons.images.push({
         'image': {
